@@ -14,9 +14,26 @@ export class ClockComponent {
   hour: number;
   minute: number;
   seconds: number;
+  dayName: string;
+  dayNames: string[] = [
+    'Monday',
+    'Tuesday',
+    'Wednesday',
+    'Thursday',
+    'Friday',
+    'Saturday',
+    'Sunday',
+  ];
+  // change colors of the boxes and text based on the numbers being displayed
+  // add an alarm function
+  // change the backround depending on the time of day
 
   constructor() {
     this.getTime();
+  }
+
+  parseDay() {
+    this.dayName = this.dayNames[this.day];
   }
 
   getTime() {
@@ -28,7 +45,7 @@ export class ClockComponent {
       this.hour = this.time.getHours();
       this.minute = this.time.getMinutes();
       this.seconds = this.time.getSeconds();
+      this.parseDay();
     }, 1000);
-    console.log(this.time);
   }
 }
