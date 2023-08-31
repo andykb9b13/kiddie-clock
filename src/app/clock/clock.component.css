@@ -1,1 +1,55 @@
+.clock p,
+h2,
+h1 {
+  text-shadow: 1px 1px 1px black;
+}
 
+.zero {
+  background-color: #4c1a57;
+  color: white;
+}
+
+.one {
+  background-color: #a62b8f;
+  color: white;
+}
+
+.two {
+  background-color: #ff3cc7;
+  color: white;
+}
+
+.three {
+  background-color: #f89964;
+  color: white;
+}
+
+.four {
+  background-color: #b8c46c;
+  color: white;
+}
+
+.five {
+  background-color: #78ee74;
+  color: white;
+}
+
+.six {
+  background-color: #3ceaae;
+  color: white;
+}
+
+.seven {
+  background-color: #00e5e8;
+  color: white;
+}
+
+.eight {
+  background-color: #00b1b0;
+  color: white;
+}
+
+.nine {
+  background-color: #007c77;
+  color: white;
+}

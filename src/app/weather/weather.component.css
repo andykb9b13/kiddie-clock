@@ -1,0 +1,9 @@
+img {
+  max-width: 40%;
+}
+
+.weather p,
+h2,
+h1 {
+  text-shadow: 1px 1px 1px white;
+}

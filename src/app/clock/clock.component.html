@@ -1,17 +1,23 @@
 <div
-  class="background d-flex flex-column align-items-center container bg-secondary bg-gradient border rounded p-4 w-50 mt-5"
+  class="clock background d-flex flex-column align-items-center container bg-transparent bg-gradient border shadow-lg rounded p-4 w-50 mt-5"
 >
-  <h1 class="text-white">{{ month + 1 }} / {{ day }} / {{ year }}</h1>
+  <h1>Today Is:</h1>
   <h2 class="text-white">{{ dayName }}</h2>
+  <h2 class="text-white">{{ month + 1 }} / {{ day }} / {{ year }}</h2>
   <div class="container d-flex justify-content-center">
-    <div class="border bg-white rounded m-1 p-3">
-      <h2>{{ hour }}</h2>
+    <div class="border shadow-lg rounded m-1 p-3" [ngClass]="hourStyle">
+      <h2>{{ hour }} :</h2>
     </div>
-    <div class="border bg-white rounded m-1 p-3">
-      <h2>{{ minute }}</h2>
+
+    <div class="border shadow-lg rounded m-1 p-3" [ngClass]="minuteStyle">
+      <h2>{{ minute }} :</h2>
     </div>
-    <div class="border bg-white rounded m-1 p-3">
-      <h2>{{ seconds }}</h2>
+
+    <div class="border shadow-lg rounded m-1 p-3" [ngClass]="secondStyle">
+      <h2>
+        {{ seconds }}
+      </h2>
     </div>
   </div>
+  <button type="button" class="btn btn-primary">Clock Style</button>
 </div>

@@ -1,1 +1,47 @@
+.sunrise {
+  background-image: url("../assets/beachSunrise.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position-y: center;
+  height: 100vh;
+}
 
+.morning {
+  background-image: url("../assets/morningMountains.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position-y: center;
+  height: 100vh;
+}
+
+.afternoon {
+  background-image: url("../assets/daytimeMountains.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position-y: center;
+  height: 100vh;
+}
+
+.sunset {
+  background-image: url("../assets/sunsetMountains.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position-y: center;
+  height: 100vh;
+}
+
+.evening {
+  background-image: url("../assets/daytimeMountains.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position-y: center;
+  height: 100vh;
+}
+
+.night {
+  background-image: url("../assets/nightMountains.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position-y: center;
+  height: 100vh;
+}
