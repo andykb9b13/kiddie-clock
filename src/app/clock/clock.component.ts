@@ -11,6 +11,7 @@ export class ClockComponent {
   year: number;
   month: number;
   day: number;
+  date: number;
   hour: number;
   minute: number;
   seconds: number;
@@ -75,9 +76,11 @@ export class ClockComponent {
       this.year = this.time.getFullYear();
       this.month = this.time.getMonth();
       this.day = this.time.getDay();
+
       this.hour = this.time.getHours();
       this.minute = this.time.getMinutes();
       this.seconds = this.time.getSeconds();
+      this.date = this.time.getDate();
       this.parseDay(this.day);
       this.secondStyle = this.setNumColor(this.seconds);
       this.minuteStyle = this.setNumColor(this.minute);
