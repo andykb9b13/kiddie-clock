@@ -1,9 +1,14 @@
+* {
+  font-family: "Bubblegum Sans", cursive;
+}
+
 .sunrise {
   background-image: url("../assets/beachSunrise.png");
   background-repeat: no-repeat;
   background-size: cover;
   background-position-y: center;
-  height: 100vh;
+  height: 150vh;
+  color: black;
 }
 
 .morning {
@@ -11,7 +16,7 @@
   background-repeat: no-repeat;
   background-size: cover;
   background-position-y: center;
-  height: 100vh;
+  height: 150vh;
 }
 
 .afternoon {
@@ -19,7 +24,7 @@
   background-repeat: no-repeat;
   background-size: cover;
   background-position-y: center;
-  height: 100vh;
+  height: 150vh;
 }
 
 .sunset {
@@ -31,11 +36,11 @@
 }
 
 .evening {
-  background-image: url("../assets/daytimeMountains.png");
+  background-image: url("../assets/evening.png");
   background-repeat: no-repeat;
   background-size: cover;
   background-position-y: center;
-  height: 100vh;
+  height: 150vh;
 }
 
 .night {
@@ -43,5 +48,5 @@
   background-repeat: no-repeat;
   background-size: cover;
   background-position-y: center;
-  height: 100vh;
+  height: 150vh;
 }

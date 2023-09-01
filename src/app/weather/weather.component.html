@@ -1,9 +1,8 @@
 <div
-  class="weather container rounded bg-info bg-gradient border p-4 w-50 mt-5 d-flex flex-column justify-content-center shadow-lg"
+  class="weather container rounded bg-info bg-gradient border p-4 w-50 mt-5 d-flex flex-column align-items-center shadow-lg"
 >
-  <h2>{{ weatherTitle }}</h2>
-  <p>{{ weatherTitle }}</p>
-  <p>{{ currentTemp }}° F</p>
+  <h2 class="fs-1">Weather</h2>
+  <p class="fs-2">{{ weatherTitle }}</p>
+  <p class="fs-3">{{ currentTemp }}° F</p>
   <img src="{{ imagePath }}" alt="weather" />
-  <p>Iterations of the function: {{ iterations }}</p>
 </div>
